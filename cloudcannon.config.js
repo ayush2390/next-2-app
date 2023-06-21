@@ -4,9 +4,6 @@ module.exports = {
     show_gutter:true,
     theme: "chrome"
   },
-   editor: {
-    default_path: "/"
-  },
   generator: {
     metadata: {
       markdown: "markdown-it",
