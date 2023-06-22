@@ -14,7 +14,7 @@ collection_groups:
 data_config:
 
 # Base path to your source files, relative to the root folder of your repository.
-source: "/"
+source: "/app"
 
 # The locations of various types of files within your site.
 # Each path is relative to your site's source folder.
