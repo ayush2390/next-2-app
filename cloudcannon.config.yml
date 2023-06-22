@@ -14,7 +14,7 @@ collection_groups:
 data_config:
 
 # Base path to your source files, relative to the root folder of your repository.
-source:
+source: "/"
 
 # The locations of various types of files within your site.
 # Each path is relative to your site's source folder.
@@ -30,6 +30,12 @@ source_editor:
 tab_size: 4
 show_gutter: false
 theme: "dawn"
+
+generator: 
+metadata:
+markdown: markdown-it
+markdown-it: 
+list-indent: 2
 
 # Timezone of your site in IANA format. This is used by date and datetime inputs
 # within the CloudCannon Data Editor.
